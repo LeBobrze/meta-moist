@@ -42,4 +42,9 @@ const pages = {
   "blob the brommod":{title:"Blob the Brommod", redirect:"b0b-mc-b0b"},
   "nathan":{title:"Nathan"},
   "nathan67003":{title:"Nathan67003", redirect:"nathan"},
+  "wplace":{title:"Wplace"},
+  "trufflz":{title:"Trufflz"},
+  "trufflzz":{title:"Trufflzz", redirect:"trufflz"},
+  "matcha-flavoured-minecraft-server":{title:"Matcha Flavoured Minecraft server"},
+  "pawcide":{title:"Pawcide"},
 };

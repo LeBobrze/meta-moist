@@ -1,1 +1,18 @@
-<p><strong>XP roles</strong> are roles in the [[dashnet-forums-discord-server|DashNet Forums Discord server]] that can be attained by gaining a certain amount of Server XP. There are 12 XP roles, gained at different amounts of XP. Each one has a name related to Cookie Clicker. Some XP roles grant extra permissions in the server.
+<p><strong>XP roles</strong> are roles in the [[dashnet-forums-discord-server|DashNet Forums Discord server]] that can be attained by gaining a certain amount of Server XP. There are 12 XP roles, gained at different amounts of XP. Each one has a name related to Cookie Clicker. Some XP roles grant extra permissions in the server.</p>
+<p>
+  Below are all of the XP roles, sorted by least to most XP required (i.e. in the order one obtains them).
+  <ul>
+    <li>Freshly Baked</li>
+    <li>Chocolate Chip</li>
+    <li>Clicky Cursor</li>
+    <li>Greasy Grandma</li>
+    <li>Sugar Lump</li>
+    <li>Golden Cookie</li>
+    <li>Heavenly Chip</li>
+    <li>Dragon egg</li>
+    <li>Cookie Dragon</li>
+    <li>Chocolate Dragon</li>
+    <li>White Chocolate Dragon</li>
+    <li>Ruby Chocolate Dragon</li>
+  </ul>
+</p>

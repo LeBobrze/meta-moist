@@ -1,3 +1,3 @@
 <span class="disambiguation_notice">This article is not buffering, that's just the article's title.</span>
 [person[Loading|images/users/loading.png|Username:loading_._._.|Mod role:Kitten Manager|[[xp-roles|XP role]]:Chocolate Dragon]person]
-<p><strong>Loading</strong> is a moderator of [[dashnet-forums-discord-server|DashNet Forums]] known for creating the [[meta-moist-thread|Meta Moist thread]] and hosting the DashNet Forums Matcha Flavoured Minecraft server.</p>
+<p><strong>Loading</strong> is a moderator of [[dashnet-forums-discord-server|DashNet Forums]] known for creating the [[meta-moist-thread|Meta Moist thread]] and hosting the [[matcha-flavoured-minecraft-server|Matcha Flavoured Minecraft server]].</p>
