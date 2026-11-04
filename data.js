@@ -36,4 +36,8 @@ const pages = {
   "gom":{title:"GoM", redirect:"the-game-of-mao"},
   "neverending-legacy":{title:"NeverEnding Legacy"},
   "nel":{title:"NEL", redirect:"neverending-legacy"},
+  "b0b-mc-b0b":{title:"B0B"},
+  "b0b":{title:"B0B", redirect:"b0b-mc-b0b"},
+  "bob":{title:"Bob", redirect:"b0b-mc-b0b"},
+  "blob the brommod":{title:"Blob the Brommod", redirect:"b0b-mc-b0b"},
 };
