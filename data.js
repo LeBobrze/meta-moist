@@ -51,7 +51,7 @@ const pages = {
   "perfect-cacophony-meme":{title:"Perfect Cacophony Meme"},
   "the-hammers-are-coming":{title:"The hammers are coming"},
   "perfect-cacophony":{title:"Perfect Cacophony"},
-  "foxgirlmaki":{title:"Maki"},
+  "foxgirlmaki":{title:"Maki", redirect:"Maki"},
   "glape":{title:"glape"},
   "aga":{title:"aga"},
 };
