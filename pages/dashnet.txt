@@ -1,0 +1,2 @@
+[img[images/misc/dashnet-logo.png|The current DashNet logo.]img]
+<p><strong>DashNet</strong> is a game development group consisting of two members; [[Orteil]] and Opti. They are most well known for creating [[cookie-clicker|Cookie Clicker]], although there are many other games and tools hosted on the DashNet website.</p>

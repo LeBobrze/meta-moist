@@ -47,6 +47,7 @@ const pages = {
   "trufflzz":{title:"Trufflzz", redirect:"trufflz"},
   "matcha-flavoured-minecraft-server":{title:"Matcha Flavoured Minecraft server"},
   "pawcide":{title:"Pawcide"},
+  "pacwide":{title:"Pacwide"},
   "bidybab":{title:"Bidybab"},
   "perfect-cacophony-meme":{title:"Perfect Cacophony Meme"},
   "the-hammers-are-coming":{title:"The hammers are coming"},
@@ -60,4 +61,10 @@ const pages = {
   "cc-channel":{title:"CC channel", redirect:"cookie-clicker-channel"},
   "igm":{title:"IGM", redirect:"idle-game-maker"},
   "idle-game-maker":{title:"Idle Game Maker"},
+  "legend":{title:"Legend"},
+  "reddit-circus":{title:"Reddit Circus"},
+  "circus":{title:"Circus", redirect:"reddit-circus"},
+  "dashnet":{title:"DashNet"},
+  "godot":{title:"Godot", redirect:"elag422"},
+  "nested":{title:"Nested"},
 };

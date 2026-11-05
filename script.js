@@ -114,7 +114,7 @@ async function search(query) {
   title.innerText = `Results for "${query}"`;
   content.appendChild(title);
   let results = [];
-  Object.keys(pages).forEach(key => {
+  Object.keys(pages).sort().forEach(key => {
     if (key.includes(query.toLowerCase()) || pages[key].title.toLowerCase().includes(query.toLowerCase())) {
       if (pages[key].redirect) {
         if (!results.includes(pages[key].redirect)) {

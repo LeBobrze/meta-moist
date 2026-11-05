@@ -1,0 +1,1 @@
+<p><strong>Nested</strong> is a procedurally generated universe simulator where a universe is represented by nested dropdowns. According to the [[DashNet]] website, it is "possibly [[Orteil]]'s favourite thing he's ever made".</p>
