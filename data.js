@@ -47,4 +47,11 @@ const pages = {
   "trufflzz":{title:"Trufflzz", redirect:"trufflz"},
   "matcha-flavoured-minecraft-server":{title:"Matcha Flavoured Minecraft server"},
   "pawcide":{title:"Pawcide"},
+  "bidybab":{title:"Bidybab"},
+  "perfect-cacophony-meme":{title:"Perfect Cacophony Meme"},
+  "the-hammers-are-coming":{title:"The hammers are coming"},
+  "perfect-cacophony":{title:"Perfect Cacophony"},
+  "foxgirlmaki":{title:"Maki"},
+  "glape":{title:"glape"},
+  "aga":{title:"aga"},
 };
