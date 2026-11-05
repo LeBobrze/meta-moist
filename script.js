@@ -2,11 +2,16 @@
 function gid(x) {return document.getElementById(x)}
 function ce(x) {return document.createElement(x)}
 const params = new URLSearchParams(window.location.search);
-const pageParam = params.get('p');
+const pageParam = params.get("p");
+const searchParam = params.get("search");
 if (pageParam && pageParam.length>0) {
   createPage(pageParam)
 } else {
-  createPage("index")
+  if (searchParam && searchParam.length>0) {
+    search(searchParam);
+  } else {
+    createPage("index")
+  }
 }
 
 async function fileExists(url) {
@@ -27,6 +32,7 @@ function randomPage() {
 gid("home_page").addEventListener("click",()=>{ window.location.href = "./"; })
 gid("random_page").addEventListener("click",()=>{ window.location.href = randomPage(); })
 gid("all_pages").addEventListener("click",()=>{ window.location.href = "?p=all"; })
+gid("search").addEventListener("click",()=>{ window.location.href = "?search="+gid("search_query").value; })
 
 function format(input) {
   return input.replace(/\[\[([^\[\]|]+)(?:\|([^\[\]]+))?\]\]/g, (m, url, label) => {
@@ -101,6 +107,33 @@ async function createPage(id,redirect = "") {
   }
 }
 
+async function search(query) {
+  let content = ce("div")
+  content.classList.add("content")
+  let title = document.createElement("h1");
+  title.innerText = `Results for "${query}"`;
+  content.appendChild(title);
+  let results = [];
+  Object.keys(pages).forEach(key => {
+    if (key.includes(query.toLowerCase()) || pages[key].title.toLowerCase().includes(query.toLowerCase())) {
+      if (pages[key].redirect) {
+        if (!results.includes(pages[key].redirect)) {
+          results.push(pages[key].redirect)
+          results.push(key)
+          console.log(key+" is new and goes to "+pages[key].redirect)
+          content.innerHTML += `<p><a href="?p=${pages[key].redirect}">${pages[pages[key].redirect].title}</a></p>`
+        }
+      } else if (!results.includes(key)){
+        results.push(key)
+        content.innerHTML += `<p><a href="?p=${key}">${pages[key].title}</a></p>`
+      }
+    }
+  })
+  if (results.length == 0) {
+    content.innerHTML += "<p>No results found.</p>"
+  }
+  gid("main").appendChild(content);
+}
 // Theme and preference selection
 
 let theme = 0;
