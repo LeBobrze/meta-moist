@@ -47,4 +47,8 @@ const pages = {
   "trufflzz":{title:"Trufflzz", redirect:"trufflz"},
   "matcha-flavoured-minecraft-server":{title:"Matcha Flavoured Minecraft server"},
   "pawcide":{title:"Pawcide"},
+  "cookie-clicker-channel":{title:"Cookie Clicker (channel)"},
+  "cc-channel":{title:"CC channel", redirect:"cookie-clicker-channel"},
+  "igm":{title:"IGM", redirect:"idle-game-maker"},
+  "idle-game-maker":{title:"Idle Game Maker"},
 };

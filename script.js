@@ -77,7 +77,7 @@ async function createPage(id,redirect = "") {
     gid("main").appendChild(content);
   } else if (pages[id]) {
     if (pages[id].redirect) {
-      history.replaceState('', 'Title of the page', "./?p="+pages[id].redirect); 
+      history.replaceState('', '', "./?p="+pages[id].redirect); 
       createPage(pages[id].redirect,id)
     } else {
       if (await fileExists(`./pages/${id}.txt`)) {
@@ -93,6 +93,11 @@ async function createPage(id,redirect = "") {
   } else if (pages[id.toLowerCase()]) {
     history.replaceState('', 'Title of the page', "./?p="+id.toLowerCase()); 
     createPage(id.toLowerCase())
+  } else {
+    let content = ce("div")
+    content.classList.add("content")
+    content.innerHTML += `<p>No page exists with the identifier "${id}". Maybe check your spelling?</p>`;
+    gid("main").appendChild(content);
   }
 }
 
