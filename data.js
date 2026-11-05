@@ -55,4 +55,8 @@ const pages = {
   "maki": {title:"foxgirlmaki", redirect:"foxgirlmaki"},
   "glape":{title:"glape"},
   "aga":{title:"aga"},
+  "cookie-clicker-channel":{title:"Cookie Clicker (channel)"},
+  "cc-channel":{title:"CC channel", redirect:"cookie-clicker-channel"},
+  "igm":{title:"IGM", redirect:"idle-game-maker"},
+  "idle-game-maker":{title:"Idle Game Maker"},
 };
