@@ -67,4 +67,13 @@ const pages = {
   "dashnet":{title:"DashNet"},
   "godot":{title:"Godot", redirect:"elag422"},
   "nested":{title:"Nested"},
+  "dashnets-best-gamers":{title:"DashNet's Best Gamers"},
+  "dbg":{title:"DBG", redirect:"dashnets-best-gamers"},
+  "dnbg":{title:"DNBG", redirect:"dashnets-best-gamers"},
+  "cookie-clicker-soundtrack":{title:"Cookie Clicker (soundtrack)"},
+  "cc-soundtrack":{title:"CC soundtrack", redirect:"cookie-clicker-soundtrack"},
+  "cookie-clicker-album":{title:"Cookie Clicker album", redirect:"cookie-clicker-soundtrack"},
+  "cookie-clicker-ep":{title:"Cookie Clicker EP", redirect:"cookie-clicker-soundtrack"},
+  "cc-album":{title:"CC album", redirect:"cookie-clicker-soundtrack"},
+  "cc-ep":{title:"CC EP", redirect:"cookie-clicker-soundtrack"},
 };
