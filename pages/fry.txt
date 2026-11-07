@@ -1,1 +1,2 @@
-[person[Fry|images/users/fry.png|Username:fry_fr|[[xp-roles|XP role]]:Ruby Chocolate Dragon]person]<p>Fry is a member of DashNet Forums known for inventing the [[meta-moist-thread|Meta Moist thread]]. Fry is also the entity referenced in the [[the-statue-made-me-fry|The statue made me Fry]] videos. Fry is known for consuming Big M.</p>
+[person[Fry|images/users/fry.png|Username:fry_fr|[[xp-roles|XP role]]:Ruby Chocolate Dragon]person]
+<p><strong>Fry</strong> is a member of DashNet Forums known for inventing the [[meta-moist-thread|Meta Moist thread]]. Fry is also the entity referenced in the [[the-statue-made-me-fry|The statue made me Fry]] videos. Fry is known for consuming [[big-m|Big M]].</p>
