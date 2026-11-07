@@ -1,0 +1,2 @@
+[person[Le Bob|images/users/le-bob.png|Username:jesuislebob|[[xp-roles|XP role]]:Golden Cookie]person]
+<p><strong>Le Bob</strong> is a member of [[dashnet-forums-discord-server|DashNet Forums]] known for being the archnemesis of [[Duga]].</p>
